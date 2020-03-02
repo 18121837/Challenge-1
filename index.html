@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>SpaceX</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+    <script src="mainscript.js"></script>
+    <title>Challenge 1</title>
 </head>
+
 <body>
-    
+    <header>
+        <figure><img src="images/logo.png" /></figure>
+    </header>
+    <main>
+        <article id="distance">
+            <h2>Distance</h2>
+            <canvas id="afstand"></canvas>
+        </article>
+        <article id="speed">
+            <h2>Speed</h2>
+            <canvas id="snelheid"></canvas>
+        </article>
+        <article id="gravity">
+            <h2>Gravity</h2>
+            <canvas id="zwaartekracht"></canvas>
+        </article>
+        <article id="watersupply">
+            <h2>Water</h2>
+            <canvas id="water"></canvas>
+        </article>
+    </main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="script.js"></script>
+
 </html>
