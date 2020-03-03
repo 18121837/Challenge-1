@@ -10,24 +10,24 @@ header {
     margin: 0;
     width: 100%;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
 }
 
 main {
     margin: auto;
-    width: 95%;
-    padding: 2%;
     padding-top: 100px;
     display: flex;
+    width: 95%;
+    padding: 3%;
     flex-direction: column;
     justify-content: space-around;
 }
 
 article {
     background: #323c5f;
-    padding: 15px;
+    padding: 18px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
