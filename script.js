@@ -1,6 +1,6 @@
 function functionAfstand() {
     var afstandChart = document.getElementById('afstand').getContext('2d');
-    Chart.defaults.global.defaultFontSize = 16;
+    Chart.defaults.global.defaultFontSize = 15;
     Chart.defaults.global.defaultFontColor = '#fff';
     var massPopChart = new Chart(afstandChart, {
         type: 'horizontalBar'
@@ -41,7 +41,7 @@ function functionAfstand() {
 
 function functionSpeed() {
     var speedChart = document.getElementById('snelheid').getContext('2d');
-    Chart.defaults.global.defaultFontSize = 16;
+    Chart.defaults.global.defaultFontSize = 15;
     Chart.defaults.global.defaultFontColor = '#fff';
     var massPopChart = new Chart(speedChart, {
         type: 'line'
@@ -66,7 +66,7 @@ function functionSpeed() {
 
 function functionGravity() {
     var gravityChart = document.getElementById('zwaartekracht').getContext('2d');
-    Chart.defaults.global.defaultFontSize = 16;
+    Chart.defaults.global.defaultFontSize = 15;
     Chart.defaults.global.defaultFontColor = '#fff';
     var massPopChart = new Chart(gravityChart, {
         type: 'polarArea'
@@ -115,7 +115,7 @@ function functionGravity() {
 
 function functionWater() {
     var afstandChart = document.getElementById('water').getContext('2d');
-    Chart.defaults.global.defaultFontSize = 16;
+    Chart.defaults.global.defaultFontSize = 15;
     Chart.defaults.global.defaultFontColor = '#fff';
     var massPopChart = new Chart(afstandChart, {
         type: 'bar'
