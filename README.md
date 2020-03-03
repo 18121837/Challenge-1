@@ -1,4 +1,7 @@
-# Challenge 1
- Welkom bij de bestanden van Challenge 1 SpaceX Dashboard.
- 
+# Challenge 1 - SpaceX Dashboard HHS
+
+Student: 18121837 - Patrick Picavet
+
+# Uitleg
+
  
