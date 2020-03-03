@@ -59,3 +59,4 @@ Allereerst heb ik een function aangemaakt om de grafiek later op te roepen in mi
 
 Het belangrijkste is de data attribuut daarin zijn de belangrijkste waardes die worden toegevoegd aan de grafieken.
 
+Hierbij het linkje naar mijn Dashboard: https://18121837.github.io/Challenge-1/
