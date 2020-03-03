@@ -71,13 +71,13 @@ function functionGravity() {
     var massPopChart = new Chart(gravityChart, {
         type: 'polarArea'
         , data: {
-            labels: ['Aarde', 'Shuttle', 'Mars']
+            labels: ['Earth', 'Rocket', 'Mars']
             , datasets: [{
                 label: 'Newton'
                 , data: [
-              9.807
-            , 1.201
-            , 3.711
+              8.905
+            , 2.102
+            , 4.866
           ]
                 , backgroundColor: [
               'rgba(74, 190, 217, 0.61)'
